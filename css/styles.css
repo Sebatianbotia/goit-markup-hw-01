@@ -1,0 +1,162 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+:root {
+    --blue-color: #2196F3;
+    --color-black: #212121;
+    --color-grey: #757575;
+    --color-white: #FFFFFF;
+    --color-turkey: #2F303A;
+    --color-light-grey: #F5F4FA;
+}
+
+/* header */
+.logo{
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: var(--blue-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+}
+
+.header-item{
+    text-decoration: none;
+    color: var(--color-black);  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header-item:hover {
+    text-decoration: none;
+    color: var(--blue-color); 
+    cursor: pointer; 
+}
+
+.contact{
+    text-decoration: none;
+    color: var(--color-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.contact:hover{
+    text-decoration: none;
+    color: var(--blue-color);
+}
+
+/* hero */
+
+.backgraund-turkey{
+    background-color: var(--color-turkey) ;
+}
+
+.tittle{
+    color: var(--color-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.pricipal-button{
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: var(--blue-color);
+    cursor: pointer;
+}
+
+.details-tittle{
+    color: var(--color-black);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.paragraph{
+    color: var(--color-grey);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.subtittles{
+    color: var(--color-black);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+.workers-section{
+    background-color: var(--color-light-grey);
+}
+
+.worker{
+    background-color: var(--color-white);
+    width: 270px;
+    height: 368px;
+}
+.worker-name{
+    color: var(--color-black);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.definition{
+    color: var(--color-grey);
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* footer */
+
+.location{
+    color: var(--color-white);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-contact{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+/* portafolio */
+
+.button{
+    color: var(--color-black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    width: 103px;
+    height: 38px;
+    background-color: var(--color-light-grey);
+}
+
+.button:hover{
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    width: 103px;
+    height: 38px;
+    background-color: var(--blue-color);
+}
+
+.product{
+    color: var(--color-black);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}

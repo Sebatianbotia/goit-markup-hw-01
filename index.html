@@ -5,60 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>WebStudio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;
+900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">WebStudio</a>
-        <ul>
-          <li><a href="#">Estudio</a></li>
-          <li><a href="#">Portafolio</a></li>
-          <li><a href="#">Contactos</a></li>
+        <a href="#" class="logo">WebStudio</a>
+        <ul class="header-menu">
+          <li><a  class="header-item" href="./index.html">Estudio</a></li>
+          <li><a  class="header-item" href="./portafolio.html">Portafolio</a></li>
+          <li><a  class="header-item" href="#">Contactos</a></li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="header-contacts">
+        <li >
+          <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a href="+525555296000">+52 55 5529 6000</a>
+          <a class="contact" href="+525555296000">+52 55 5529 6000</a>
         </li>
       </ul>
     </header>
 
     <main>
-      <section>
-        <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button type="button">Solicite nuestro servicio</button>
+      <section class="backgraund-turkey">
+        <h1 class="tittle">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+        <button class="pricipal-button" type="button">Solicite nuestro servicio</button>
       </section>
       <section>
-        <ul>
+        <ul class="details">
           <li>
-            <h3>A LOS DETALLES</h3>
-            <p>
+            <h3 class="details-tittle">A LOS DETALLES</h3>
+            <p class="paragraph">
               Nos adentramos en todos los detalles y procesos de su negocio,
               para así desarrollar una solución a su medida.
             </p>
           </li>
 
           <li>
-            <h3>PUNTUALIDAD</h3>
-            <p>
+            <h3 class="details-tittle">PUNTUALIDAD</h3>
+            <p class="paragraph">
               Con nosotros, usted puede sentirse seguro y protegido. Un
               principio importante de la empresa: respetar su tiempo y respetar
               los plazos acordados.
             </p>
           </li>
           <li>
-            <h3>PLANIFICACION</h3>
-            <p>
+            <h3 class="details-tittle">PLANIFICACION</h3>
+            <p class="paragraph">
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones.
             </p>
           </li>
           <li>
-            <h3>TECNOLOGIA MODERNA</h3>
-            <p>
+            <h3 class="details-tittle">TECNOLOGIA MODERNA</h3>
+            <p class="paragraph">
               Usamos herramientas innovadoras para resolver las tareas
               asignadas. Es hora de simplificar los procesos laborales.
             </p>
@@ -67,7 +72,7 @@
       </section>
 
       <section>
-        <h2>A qué nos dedicamos</h2>
+        <h2 class="subtittles">A qué nos dedicamos</h2>
         <ul>
           <li>
             <img 
@@ -93,55 +98,55 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Nuestro Equipo</h2>
+      <section class="workers-section">
+        <h2 class="subtittles">Nuestro Equipo</h2>
         <ul>
-          <li>
+          <li class="worker">
             <img
               src="./images/equipo1.jpg"
               alt="equipo1"
               width="270"
               height="260">
-            <h3>Andrés Cubo</h3>
-            <p>Diseñador de Productos</p>
+            <h3 class="worker-name">Andrés Cubo</h3>
+            <p class="definition">Diseñador de Productos</p>
           </li>
-          <li>
+          <li class="worker">
             <img
               src="./images/equipo2.jpg"
               alt="equipo2"
               width="270"
               height="260">
-            <h3>Carla Palacios</h3>
-            <p>Desarrolladora Frontend</p>
+            <h3 class="worker-name">Carla Palacios</h3>
+            <p class="definition">Desarrolladora Frontend</p>
           </li>
-          <li>
+          <li class="worker"> 
             <img
               src="./images/equipo3.jpg"
               alt="equipo3"
               width="270"
               height="260">
-            <h3>Mario Dorado</h3>
-            <p>Marketing</p>
+            <h3 class="worker-name">Mario Dorado</h3>
+            <p class="definition">Marketing</p>
           </li>
-          <li>
+          <li class="worker">
             <img
               src="./images/equipo4.jpg"
               alt="equipo4"
               width="270"
               height="260">
-            <h3>Pablo Mijangos</h3>
-            <p>Diseñador IU</p>
+            <h3 class="worker-name">Pablo Mijangos</h3>
+            <p class="definition">Diseñador IU</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-        <a href="#">WebStudio</a>
+    <footer class="backgraund-turkey">
+        <a class="logo" href="#">WebStudio</a>
         <address>
         <ul>
-          <li>Calz. Ticomán 500, Ciudad de México, CDMX, México</li>
-          <li><a href="#">@example.com</a></li>
-          <li><a href="#">+52 55 5529 6000</a></li>
+          <li><p class="location">Calz. Ticomán 500, Ciudad de México, CDMX, México</p></li>
+          <li><a class="footer-contact" href="#">@example.com</a></li>
+          <li><a class="footer-contact" href="#">+52 55 5529 6000</a></li>
         </ul>
       </address>
     </footer>
